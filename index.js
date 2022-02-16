@@ -1,5 +1,12 @@
-import { _print , _len , _dbl , _diffrence , _div , _half , _rnum , _sum , _t , _x , _rect , _square , _a} from './library/index.js';
-import { Triangle , _tri } from './library/triangle.js';
+import { _print , _len , _dbl , _diffrence , _div , _half , _rnum , _sum , _t , _x , _rect , _square 
+, _a , _upper, _capitalize , _lower , _fjson , _p , _sqrt , _setBackgroundColor , _setbottomMargin , _setcolor , _sethtml , _setleftMargin , _setrightMargin , _settopMargin , _click , _clickhide , _clickshow 
+,_hide , _inc ,_setBorderColor , _setBorderRadius , _setBorderStyle , _setBorderWidth , _setTextShadow , _setborder , _setdisplay ,
+_setfontFamily , _setpadding , _setpos , _setshadow} from './library/index.js';
+
+import { Triangle , _tri  } from './library/triangle.js';
+
+
+//Example code
 _print('Hello');
 _print( 'The length of "Hello" is ' + _len('hello'));
 _print('Sum of "1+1" is ' + _sum(1 , 1));
@@ -17,4 +24,7 @@ _print(`As mySecondTri is ${mySecondTri.sum}, mySecondTri = ${mySecondTri.valid}
 _print(mySecondTri.calcC());
 _print(mySecondTri.calcA());
 _print(mySecondTri.calcB());
-_a('library working!!')
+_print(_upper('hi'))
+_print(_capitalize('hi'))
+//_a('library working!!');
+//_p('What is your name: ');

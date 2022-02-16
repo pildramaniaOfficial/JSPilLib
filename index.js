@@ -1,4 +1,5 @@
-import { _print , _len , _dbl , _diffrence , _div , _half , _rnum , _sum , _t , _x , _rect , _square , _tri , Triangle } from './library/index.js';
+import { _print , _len , _dbl , _diffrence , _div , _half , _rnum , _sum , _t , _x , _rect , _square , _a} from './library/index.js';
+import { Triangle , _tri } from './library/triangle.js';
 _print('Hello');
 _print( 'The length of "Hello" is ' + _len('hello'));
 _print('Sum of "1+1" is ' + _sum(1 , 1));
@@ -12,4 +13,8 @@ _print('Square of 4 is' + _square(4));
 var myTri = new Triangle(2 , 2 , 4 );
 _t(myTri.ratioTri());
 var mySecondTri = new Triangle( 100 , 60 , 20  );
-_print(`As mySecondTri is ${mySecondTri.sum}, mySecondTri = ${mySecondTri.valid}`)
+_print(`As mySecondTri is ${mySecondTri.sum}, mySecondTri = ${mySecondTri.valid}`);
+_print(mySecondTri.calcC());
+_print(mySecondTri.calcA());
+_print(mySecondTri.calcB());
+_a('library working!!')
